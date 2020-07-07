@@ -28,7 +28,7 @@
                 navigator.serviceWorker.getRegistration().then(function(registration) {
                   registration.pushManager.subscribe({
                     userVisibleOnly: true,
-                    applicationServerKey: urlBase64ToUint8Array("BBItcP6Hf6F2yg3uhcAd063DCqU1D3KZygU54YF-uyRWwmuhCd-M0dki2jVJhjOghMSOaS8eVuNe6VK7tFOpYcA")
+                    applicationServerKey: urlBase64ToUint8Array("BH69pA3LNC5IbvWyKLs0dMz2DytdrTHThVWjBr0o3lmBwtP68V7CM-KFUQEMfBz4dAdVUFcSPn0gp87oUzsSTSo")
                   }).then(function(subscribe) {
                     console.log('Berhasil melakukan subscribe dengan endpoint: ', subscribe.endpoint);
                     console.log('Berhasil melakukan subscribe dengan p256dh key: ', btoa(String.fromCharCode.apply(
