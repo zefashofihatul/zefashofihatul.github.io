@@ -1,0 +1,169 @@
+.content-page{
+	margin-top: 30px;
+	padding: 30px 0 30px 0;
+}
+
+#logo {
+	font-family: timesnewroman, sans-serif;
+	font-size: 30px;
+	margin-left: 10px;
+}
+
+.slider img {
+	filter: brightness(70%);
+}
+
+.brand-logo {
+	font-family: timesnewroman, sans-serif;
+}
+
+.slides span {
+	font-size: 30px;
+	font-family: timesnewroman, sans-serif;
+}
+
+.slides .caption {
+	margin-top: 80px;
+}
+
+.slides .caption h3{
+	font-family: timesnewroman, sans-serif; 
+}
+
+.slides .caption h5{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.slides .caption h4 {
+	font-size: 25px;
+}
+
+.slider li {
+	height: 100%;
+}
+
+#about {
+	margin: 100px 0;
+}
+
+#match {
+	height: 280px;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 20px 20px 30px 5px;
+	border-radius: 10px;
+}
+
+.wrap {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+
+#match h5{
+	font-size: 18px;
+	font-family: timesnewroman, sans-serif;
+	color: white;
+}
+
+#match h4{
+	font-size: 30px;
+	font-family: timesnewroman, sans-serif;
+	color: white;
+}
+
+#match span {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: green;
+	font-family: timesnewroman, sans-serif;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: bold;
+}
+
+.button{
+	border-radius: 50px;
+}
+
+.containerMatch {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.containerFavorites {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.cardHome, .cardAway {
+	width: 50%;
+	text-align: center;
+}
+
+#logoTeam {
+	height: 70px;
+}
+
+.preloader-wrapper {
+	margin: 20px;
+}
+
+#klasemenLogo {
+	height: 30px;
+}
+
+.time {
+	margin-bottom: 0px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+}
+
+#logoDetail {
+	height: 170px;
+}
+
+
+@media only screen and (max-width: 400px) {
+	#match {
+		height: 280px;
+		width: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin: 20px 20px 30px 5px;
+		border-radius: 10px;
+	}
+	.tab{
+		font-size: 8px;
+	}
+
+	.slides .caption {
+		margin-top: 0px;
+	}
+	#logo {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (min-width: 400px) {
+	.slides .caption {
+		margin-top: 0px;
+	}
+	#logo {
+		margin-left: 0;
+	}
+}

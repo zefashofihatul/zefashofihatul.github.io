@@ -1,0 +1,29 @@
+[debug] [2020-07-07T06:48:41.425Z] ----------------------------------------------------------------------
+[debug] [2020-07-07T06:48:41.436Z] Command:       /usr/bin/node /usr/local/bin/firebase login
+[debug] [2020-07-07T06:48:41.438Z] CLI Version:   8.4.3
+[debug] [2020-07-07T06:48:41.438Z] Platform:      linux
+[debug] [2020-07-07T06:48:41.438Z] Node Version:  v10.20.1
+[debug] [2020-07-07T06:48:41.439Z] Time:          Tue Jul 07 2020 13:48:41 GMT+0700 (Western Indonesia Time)
+[debug] [2020-07-07T06:48:41.439Z] ----------------------------------------------------------------------
+[debug] [2020-07-07T06:48:41.440Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2020-07-07T06:48:41.505Z] TypeError: toSubscriber_1.toSubscriber is not a function
+    at Observable.subscribe (/usr/local/lib/node_modules/firebase-tools/node_modules/rxjs/internal/Observable.js:23:35)
+    at Observable.ConnectableObservable.connect (/usr/local/lib/node_modules/firebase-tools/node_modules/rxjs/internal/observable/ConnectableObservable.js:47:18)
+    at PromptUI.run (/usr/local/lib/node_modules/firebase-tools/node_modules/inquirer/lib/ui/prompt.js:38:18)
+    at Object.promptModule [as prompt] (/usr/local/lib/node_modules/firebase-tools/node_modules/inquirer/lib/inquirer.js:28:22)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/prompt.js:30:40)
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/firebase-tools/lib/prompt.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/firebase-tools/lib/prompt.js:4:12)
+    at Object.prompt (/usr/local/lib/node_modules/firebase-tools/lib/prompt.js:16:12)
+    at /usr/local/lib/node_modules/firebase-tools/lib/commands/login.js:39:24
+    at Generator.next (<anonymous>)
+    at /usr/local/lib/node_modules/firebase-tools/lib/commands/login.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/local/lib/node_modules/firebase-tools/lib/commands/login.js:4:12)
+    at Command.module.exports.command_1.Command.description.option.option.action [as actionFn] (/usr/local/lib/node_modules/firebase-tools/lib/commands/login.js:25:26)
+[error] 
+[error] Error: An unexpected error has occurred.

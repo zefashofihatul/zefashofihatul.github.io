@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"/>
+      <title>FootballSchedule</title>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <!-- Let User Install in Home Screen -->
+      <link rel="manifest" href="/manifest.json">
+      <!-- Theme Color Application -->
+      <meta name="theme-color" content="#00897B"/>
+      <!-- Apple-Touch-Icon -->
+      <link rel="apple-touch-icon" sizes="192x192" href="logo_192.png"/>
+      <link rel="apple-touch-icon" sizes="512x512" href="logo_512.png"/>
+      <!-- Memanggil css/Style -->
+      <link rel="stylesheet" href="css/style.css">
+    </head>
+  
+    <body class="scrollspy" id="home">
+
+  	<!-- Navbar -->
+  	<div class="navbar-fixed">
+  		<nav class="nav-extended teal">
+  			<div class="nav-wrapper">
+  		    	<a href="#home" id="logo" class="brand-logo">BolaBuleud</a>
+  		     	<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">☰</i></a>
+  		      <ul id="nav-mobile" class="topnav right hide-on-med-and-down">
+  		     	  <li><a href="#home">Home</a></li>
+              <li><a href="#content">Content</a></li>
+              <li><a href="#about">About</a></li>
+  		     	</ul>
+  		  </div>
+  		  <div class=" nav-content">
+          <ul class="nav-service tabs tabs-transparent"></ul>
+  		  </div>
+      </nav>
+    </div>
+
+  	<ul class="sidenav" id="mobile-demo">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#content">Content</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  	<!-- Akhir Navbar -->
+  	
+    <!-- isi content -->
+  	<!-- Slider -->
+    <div class="slider scrollspy">
+    	<ul class="slides">
+         	<li>
+            	<img src="./img/background1.jpg"> 
+            	<div class="caption center-align">
+              		<div class="text">
+              			<h3>Do You Love Football?</h3>
+              			<h5 class="light grey-text text-lighten-3"><span>"</span>I had to lift players' expectations. They should never give in. I said that to them all the time: "If you give in once, you'll give in twice.<span>"</span></h5>
+              			<h4>Sir Alex Ferguson</h4>
+              		</div>
+            	</div>
+          	</li>
+          	<li>
+            	<img src="./img/background2.jpg"> 
+            	<div class="caption center-align">
+             		<div class="text">
+              			<h3>Check a Schedule on This</h3>
+              			<h5 class="light grey-text text-lighten-3">"There’s a reason that God gave us two ears, two eyes and one mouth. It’s so you can listen and watch twice as much as you talk. Best of all, listening costs you nothing"</h5>
+              			<h4>Sir Alex Ferguson</h4>  
+            		</div>
+            	</div>
+          	</li>
+          	<li>
+            	<img src="./img/background3.jpg">
+            	<div class="caption center-align">
+             		<div class="text">
+              			<h3>We'll be Waiting For You</h3>
+              			<h5 class="light grey-text text-lighten-3">"Perhaps the most important element of each activity is to inspire a group of people to perform at their very best. The best teachers are the unsung heroes and heroines of any society,"</h5>
+              			<h4>Sir Alex Ferguson</h4>
+              		</div>
+            	</div>
+          </li>
+    	</ul>
+    </div>
+    <!-- Akhir Slider -->
+
+  <!-- Section Content -->
+	<div class="body-content" id="body-content"></div>
+	<div class="content-page scrollspy" id="content"></div>
+	<!-- Akhir Section Content -->
+
+	<!-- Section About Me -->
+  	<section id="about" class="about scrollspy">
+    	<div class="container">
+    		<div class="row">
+	        	<h3 class="center light grey-text text-darken-3">About Me</h3>
+	            <div id="aboutme" class="col m6 s12 light">
+	               	<h5>Zefa Shofihatul</h5>
+	               	<p>Lemme introduce myself, Nama lengkap saya Zefa Shofihatul Qolbi, lahir dan tinggal di Bandung, lulusan STM Pembangunan, jurusan Teknik Elektronika.</p>
+                  <p>Sebelumnya, saya pernah bekerja sebagai Teknisi, mulai dari Elevator & Escalator Technician (PLC & Mikrokontroller Programming serta Preventive Maintenance), ATM Machine Technician (Bagian Preventive Maintenance & Custody/OA), Elektromedik Technician (Bagian Instalasi), sampai buruh pernah saya jalani.</p>
+	               	<a class="waves-effect waves-light btn">More About Me</a>
+	            </div>
+	           	<div class="col m6 s12">
+	              	<p>WEB DEVELOPMENT</p>
+	              	<div class="progress">
+	                	<div class="determinate red" style="width: 30%"></div>
+	              	</div>
+	              	<p>WEB Designer</p>
+	              	<div class="progress">
+	                	<div class="determinate red" style="width: 60%"></div>
+	              	</div>
+	              	<p>Hardware Programming</p>
+	              	<div class="progress progress">
+	                	<div class="determinate red" style="width: 90%"></div>
+	              	</div>
+	            </div>
+      		</div>     
+    	</div>
+    </section>
+    <!-- Akhir Section About Me -->
+    <!-- akhir isi content -->
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="./js/third_party/materialize.min.js" type="text/javascript"></script>
+    <script src="./js/third_party/materialize_activate.js" type="text/javascript"></script>
+
+    <script src="./index.js" type="module"></script>
+    <script src="./js/service_worker_activate/sw.js" type="text/javascript"></script>
+  </body>
+</html>

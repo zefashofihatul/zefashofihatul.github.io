@@ -1,0 +1,22 @@
+{
+    "name": "FootballSchedule",
+    "gcm_sender_id": "1069950770061",
+    "short_name": "Football",
+    "description": "Aplikasi Football Schedule",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#00897B",
+    "theme_color": "#008080",
+    "icons": [
+        {
+            "src": "logo_192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "logo_512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
