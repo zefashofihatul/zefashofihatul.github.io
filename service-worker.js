@@ -5,7 +5,6 @@ if (workbox) {
 } else {
     console.log(`Workbox gagal dimuat`);
 }
-// 1//0g2Plq2W4-q8sCgYIARAAGBASNgF-L9IrTR1FMYcptS0_39mV7m1m5BFt2xsCRU4jEvhyOniVahwbIsgaodq1-ZTE0yz5nMJhXQ
 
 // Pertama kali changing atau precaching
 workbox.precaching.precacheAndRoute([
@@ -40,7 +39,10 @@ workbox.precaching.precacheAndRoute([
     { url: '/pages/match.html', revision: '1' },
     { url: '/pages/score.html', revision: '1' },
     { url: '/pages/favorites.html', revision: '1' },
-]);
+],  {
+  // Ignore all URL parameters.
+  ignoreURLParametersMatching: [/.*/]
+});
 
 workbox.routing.registerRoute(
     /\.(?:png|gif|jpg|jpeg|svg)$/,

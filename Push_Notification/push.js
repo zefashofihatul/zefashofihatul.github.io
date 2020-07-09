@@ -11,10 +11,10 @@ webPush.setVapidDetails(
     vapidKeys.privateKey
 )
 var pushSubscription = {
-    "endpoint": "https://fcm.googleapis.com/fcm/send/c4mX_glpACs:APA91bHjJPGBu_Ca2eMWjY635rV3OOb6RiR6Akt-RSJ4_pSHgw3XxMvn82a2FKurAY05ZmOK7z-nN5izqtgXTaUmRFou2npZSVhShFCiyusfsNbNHBdip6PhLlp49EC4R8nNBNedysh0",
+    "endpoint": "https://fcm.googleapis.com/fcm/send/dF_bpE26-6o:APA91bFW0684tWWDANm1qrYKWQtOexO-LYxUDP9A8gMAM7P_ooGSODSfJiCXII9mf3JAPBsNvRt92E4E6J44tOVn_GITDIhKetIa2XKzyV-lnMvuN4WZYb1eP1-KFgWyLqZg7e2hCrr1",
    "keys": {
-       "p256dh": "BCDLpqz7PEZTHABDdR9xCY97uKEAVvdQVcGiuvB6LfX9h2ed/t91AmSkjoJPU+EM8D7oNwNEbUHRP2P19sf4r2k=",
-       "auth": "0KhFZFfvshZ11telkz8gOQ=="
+       "p256dh": "BFDtYwZ+SN8od28x8USbseVde+kWePMHD1fTGbFFQ6zii4eBCi4FMQBnCFFhRJ9rhmKN3qrk8rHvZWHBdzg/968=",
+       "auth": "RXbx/Z+bk4wkPeOcVpZGAg=="
     }
 };
 var payload = 'LAST MATCH: Persib (8) VS Persija (0)!';

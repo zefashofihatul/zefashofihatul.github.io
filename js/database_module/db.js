@@ -11,16 +11,14 @@ export const saveForLater = (data) => {
       var store = tx.objectStore("saved");
       let match = data.match;
       console.log(match);
-      store.put(match, data.match[0]);
+      store.add(match, data.match[0]);
       return tx.complete;
     })
-    .then(function() {
-      console.log("Artikel berhasil di simpan.");
-      alert("Article berhasil disimpan");
+    .then(function() { 
+      alert("article berhasil di simpan");
     })
-    .catch(cal=> {
-    	console.log("Data Sudah ada");
-      alert("Data sudah ada");
+    .catch(cal => {
+      alert("article sudah ada dalam database");
     })
 }
 
