@@ -40,7 +40,9 @@ workbox.precaching.precacheAndRoute([
     { url: '/pages/score.html', revision: '1' },
     { url: '/pages/favorites.html', revision: '1' },
 ],  {
-  // Ignore all URL parameters.
+  // Ignore all URL parameters, perintah untuk menagabaikan apapun 
+  // yang terdapat pada setelah UrlParameters
+
   ignoreURLParametersMatching: [/.*/]
 });
 
